@@ -1,0 +1,52 @@
+.job-title {
+    margin: 25px auto 0;
+    font-size: 18px;
+    text-align: center;
+}
+.job-company {
+    width: 80%;
+    margin: 60px auto;
+    padding: 25px 20px;
+    background: url("../images/exp-job.jpg") no-repeat;
+    background-size:100% 100%;
+}
+.job-company>div {
+    width: 50%;
+    margin: 0;
+    font-size: 14px;
+}
+.job-company>span {
+    display: block;
+    margin-bottom: 15px;
+}
+.epx-project {
+    width: 35%;
+    float: left;
+    margin-top: 80px;
+    margin-left:10% ;
+    padding: 15px;
+    background:url("../images/zsx.png") no-repeat;
+    background-size: 100% 100%;
+    border-radius: 10px;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .job-company {
+        width: 900%;
+        margin: 30px auto;
+        padding: 25px 20px;
+        background: #d8e0f3;
+        text-align: center;
+    }
+    .job-company>div {
+        margin: 0;
+        display: inline-block;
+        font-size: 12px;
+        text-align: justify;
+    }
+    .epx-project {
+        width: 80%;
+    }
+}

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-11-22 14:24:39
+ * @version $Id$
+ */
+.banner {
+    width: 100%;
+    overflow: hidden;
+}
+
+.home-header {
+    margin: 400px auto 30px;
+    -webkit-transition: margin-top 1s ease-in-out;
+    transition: margin-top 1s ease-in-out;
+}
+.margin-top-100 {
+    margin-top: 100px;
+}
+.header-icon {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .4s ease-out;
+    -moz-transition: -moz-transform .4s ease-out;
+    -o-transition: -o-transform .4s ease-out;
+}
+.header-icon:hover {
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    -o-transform:rotateY(180deg);
+    cursor: pointer;
+}
+.dictum,
+.introduce-name,
+.introduce-word {
+    margin: 12px auto;
+    text-align: center;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity .5s;
+    -moz-transition: opacity .5s; /* Firefox 4 */
+    -webkit-transition: opacity .5s; /* Safari 和 Chrome */
+    -o-transition: opacity .5s; /* Opera */
+}
+.introduce-name,
+.dictum {
+    margin: 16px auto;
+    font-size: 18px;
+}
+.transition-opacity {
+    opacity: 1;
+}
+.dictum-line {
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: #a8a8aa;
+    margin: 0 auto;
+    border-bottom: 0 solid #a8a8aa;
+    transition: width .2s;
+    -moz-transition: width .4s; /* Firefox 4 */
+    -webkit-transition: width .4s; /* Safari 和 Chrome */
+    -o-transition: width .4s; /* Opera */
+}
+.dictum-line-transition {
+    width: 80%;
+}
+@media screen and (max-width: 767px) {
+    .carousel-indicators li,
+    .carousel-indicators .active {
+        display: none;
+    }
+    .home-header {
+        margin: 100px auto 30px;
+        -webkit-transition: margin-top 2s ease-in-out;
+        transition: margin-top 2s ease-in-out;
+    }
+    .dictum {
+        font-size: 14px;
+    }
+}

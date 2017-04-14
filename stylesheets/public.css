@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-11-21 23:59:49
+ * @version $Id$
+ */
+
+body {
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color:#333;
+    letter-spacing: normal;
+    opacity: 1;
+    background-color: #f2f2f2;
+}
+img {
+    width: 100%;
+}
+.mg-top-40 {
+    margin-top: 40px;
+}
+
+.font-2b3d51 {
+    color: #2b3d51
+}
+
+/*字体宽度*/
+.font-bold {
+    font-weight: bold;
+}
+svg{
+    height:90%;
+    width:90%;
+}

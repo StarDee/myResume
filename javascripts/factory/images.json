@@ -1,0 +1,14 @@
+{
+  "image1": {
+    "url": "images/life.jpg",
+    "alt": "0"
+  },
+  "image2": {
+    "url": "images/god.jpg",
+    "alt": "1"
+  },
+  "image3": {
+    "url": "images/sudauniversty.jpg",
+    "alt": "2"
+  }
+}

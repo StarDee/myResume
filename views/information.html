@@ -1,0 +1,37 @@
+<div class="banner">
+    <div id="home-top-carousel" class="carousel slide"
+         data-ride="carousel">
+
+        <!-- 轮播（Carousel） -->
+
+        <div class="carousel-inner" id="carousel-example-generic" role="listBox">
+            <div class="item" ng-repeat="homeCarousel in vm.homeCarousel track by $index"
+                 ng-class="{'active':$first}">
+                <img data-target="#home-top-carousel" ng-src={{homeCarousel.url}} alt="" href={{homeCarousel.alt}}>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--轮播结束-->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 home-header" ng-class="{'margin-top-100':vm.toTop}">
+            <img class="header-icon" src="images/head.png"/>
+            <p class="introduce-name font-bold" ng-class="{'transition-opacity':vm.toTop}">狄星</p>
+            <p class="dictum" ng-class="{'transition-opacity':vm.toTop}">
+                学问必须合乎自己的兴趣,方才可以得益.
+                </br>
+                然进乎技者，道矣
+            </p>
+            <p class="dictum-line" ng-class="{'dictum-line-transition':vm.toShow}"></p>
+            <p class="introduce-word" ng-class="{'transition-opacity':vm.toShow}">男&nbsp;&nbsp;22岁</p>
+            <p class="introduce-word" ng-class="{'transition-opacity':vm.toShow}">WEB前端工程师</p>
+            <p class="introduce-word" ng-class="{'transition-opacity':vm.toShow}">di.star@foxmail.com</p>
+        </div>
+    </div>
+</div>
+<d3-bars></d3-bars>
+
+
+

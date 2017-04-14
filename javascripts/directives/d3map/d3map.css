@@ -1,0 +1,16 @@
+.map_path {
+    stroke: black;
+    stroke-width: 1;
+}
+
+.grid_path{
+    stroke: gray;
+    stroke-width: 1;
+    fill:none;
+    opacity: 1;
+}
+.chart {
+    width: 50%;
+    margin:0 auto;
+    text-align: center;
+}

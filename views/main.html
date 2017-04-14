@@ -1,0 +1,52 @@
+<div>
+	<header class="nav">
+		<div class="header-panel">
+			<div class="container">
+				<div class="row">
+					<nav class="navbar navbar-default nav-clear">
+						<span class="glyphicon glyphicon-star star-position" ng-if="!vm.star" ui-sref="app.information"></span>
+						<div class="pull-right collapse navbar-collapse col-sm-6 nav-xs"
+	                                 id="bs-example-navbar-collapse-1">
+							<ul ontouchstart=""
+	                                    data-target="#bs-example-navbar-collapse-1"
+	                                    class="nav navbar-nav navbar-right nav-media main-nav mg-0">
+								<li class="glyphicon glyphicon-star" ng-if="vm.star" ui-sref="app.information"></li>
+								<li class="nav-page" ui-sref="app.information" ng-class="{navChoice: $state.includes('app.information')}">个人信息
+									<span class="nav-page-underline"></span>
+								</li>
+								<li class="nav-page" ui-sref="app.edu" ng-class="{navChoice: $state.includes('app.edu')}">教育经历
+									<span class="nav-page-underline"></span>
+								</li>
+								<li class="nav-page" ui-sref="app.job" ng-class="{navChoice: $state.includes('app.job')}">工作经历
+									<span class="nav-page-underline"></span>
+								</li>
+								<li class="nav-page" ui-sref="app.skill" ng-class="{navChoice: $state.includes('app.skill')}">职业技能
+									<span class="nav-page-underline"></span>
+								</li>
+							</ul>
+	                    </div>
+	                    <div class="navbar-header">
+		                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+		                                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		                                <span class="sr-only">Toggle navigation</span>
+		                                <span class="icon-bar"></span>
+		                                <span class="icon-bar"></span>
+		                                <span class="icon-bar"></span>
+		                            </button>
+						</div>
+                    </nav>
+				</div>
+			</div>
+		</div>
+	</header><!-- /header -->
+	<div data-ui-view="">
+		
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 footer-text">给我一个支点，我可以撬起整个地球</div>
+			</div>
+		</div>
+	</footer>	
+</div>

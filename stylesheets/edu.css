@@ -1,0 +1,96 @@
+.edu-head,
+.edu-end {
+    margin-top: 70px;
+    background-color: rgba(102, 102, 102, 0.301961);
+    overflow: hidden;
+
+}
+.edu-end {
+    margin: 0;
+}
+.soochow {
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.soochow:hover {
+    text-decoration: none;
+}
+.school-motto {
+    text-align: center;
+    font-family: STXingkai,华文行楷;
+    font-size: 22px;
+    margin-bottom:30px ;
+}
+.edu-sd {
+    margin: 20px auto;
+}
+.edu-head-left {
+    position: relative;
+    padding: 0;
+}
+
+.edu-sd-a:hover {
+    opacity: 0;
+    transition: all 2s;
+    -moz-transition: all 2s; /* Firefox 4 */
+    -webkit-transition: all 2s; /* Safari 和 Chrome */
+    -o-transition: all 2s; /* Opera */
+    /*-webkit-transform:rotate(180deg);*/
+    /*-moz-transform:rotate(180deg);*/
+}
+.edu-sd-a {
+    position: absolute;
+    top:0;
+    left: 0;
+    margin-right: 15px;
+    opacity: 1;
+    transition: all 2s;
+    -moz-transition: all 2s; /* Firefox 4 */
+    -webkit-transition: all 2s; /* Safari 和 Chrome */
+    -o-transition: all 2s; /* Opera */
+}
+
+.edu-line {
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: #6bf;
+    margin: 80px auto;
+    border-bottom: 0 solid #6bf;
+    transition: width 1s;
+    -moz-transition: width 1s; /* Firefox 4 */
+    -webkit-transition: width 1s; /* Safari 和 Chrome */
+    -o-transition: width 1s; /* Opera */
+}
+
+.line-transition {
+    width: 80%;
+}
+.edu-sd-c {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 30px auto;
+    border-radius: 50%;
+    transition: all 4s;
+    -moz-transition: all 4s; /* Firefox 4 */
+    -webkit-transition: all 4s; /* Safari 和 Chrome */
+    -o-transition: all 4s; /* Opera */
+}
+.edu-sd-c:hover {
+    transform:rotateY(720deg);
+    -webkit-transform:rotateY(720deg);
+    -moz-transform:rotateY(720deg);
+    -o-transform:rotateY(720deg);
+}
+.explain-word {
+    width: 70%;
+    margin: 30px auto;
+    font-size: 14px;
+    text-indent: 35px;
+    text-align: justify;
+}
